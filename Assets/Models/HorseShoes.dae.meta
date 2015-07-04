@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: cd1e7d2bcbf3b3e47a44cb68fa792a93
+timeCreated: 1435988558
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Component_2
+    100002: Component_2 1
+    100004: Component_2 2
+    100006: Horseshoe
+    100008: Horseshoe 1
+    100010: Horseshoe 2
+    100012: //RootNode
+    100014: ID16
+    100016: ID16 1
+    100018: ID16 2
+    100020: ID22
+    100022: ID22 1
+    100024: ID22 2
+    100026: ID28
+    100028: ID28 1
+    100030: ID28 2
+    100032: ID34
+    100034: ID34 1
+    100036: ID34 2
+    100038: ID40
+    100040: ID40 1
+    100042: ID40 2
+    100044: ID46
+    100046: ID46 1
+    100048: ID46 2
+    100050: instance_0
+    100052: instance_1
+    100054: instance_1 1
+    100056: instance_1 2
+    100058: instance_2
+    100060: instance_3
+    400000: Component_2
+    400002: Component_2 1
+    400004: Component_2 2
+    400006: Horseshoe
+    400008: Horseshoe 1
+    400010: Horseshoe 2
+    400012: //RootNode
+    400014: ID16
+    400016: ID16 1
+    400018: ID16 2
+    400020: ID22
+    400022: ID22 1
+    400024: ID22 2
+    400026: ID28
+    400028: ID28 1
+    400030: ID28 2
+    400032: ID34
+    400034: ID34 1
+    400036: ID34 2
+    400038: ID40
+    400040: ID40 1
+    400042: ID40 2
+    400044: ID46
+    400046: ID46 1
+    400048: ID46 2
+    400050: instance_0
+    400052: instance_1
+    400054: instance_1 1
+    400056: instance_1 2
+    400058: instance_2
+    400060: instance_3
+    2300000: Component_2
+    2300002: Component_2 1
+    2300004: Component_2 2
+    2300006: ID16
+    2300008: ID16 1
+    2300010: ID16 2
+    2300012: ID22
+    2300014: ID22 1
+    2300016: ID22 2
+    2300018: ID28
+    2300020: ID28 1
+    2300022: ID28 2
+    2300024: ID34
+    2300026: ID34 1
+    2300028: ID34 2
+    2300030: ID40
+    2300032: ID40 1
+    2300034: ID40 2
+    2300036: ID46
+    2300038: ID46 1
+    2300040: ID46 2
+    3300000: Component_2
+    3300002: Component_2 1
+    3300004: Component_2 2
+    3300006: ID16
+    3300008: ID16 1
+    3300010: ID16 2
+    3300012: ID22
+    3300014: ID22 1
+    3300016: ID22 2
+    3300018: ID28
+    3300020: ID28 1
+    3300022: ID28 2
+    3300024: ID34
+    3300026: ID34 1
+    3300028: ID34 2
+    3300030: ID40
+    3300032: ID40 1
+    3300034: ID40 2
+    3300036: ID46
+    3300038: ID46 1
+    3300040: ID46 2
+    4300000: Component_2
+    4300002: ID16
+    4300004: ID22
+    4300006: ID28
+    4300008: ID34
+    4300010: ID40
+    4300012: ID46
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0599999987
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
