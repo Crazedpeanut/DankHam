@@ -6,7 +6,6 @@ public class IslandBoatLogic : MonoBehaviour
 {
 	private Transform oldParent;
 	public Collider storiesCollider;
-	public string nextLevel;
 
 
 	// Use this for initialization
@@ -27,7 +26,6 @@ public class IslandBoatLogic : MonoBehaviour
 	void OnConversationEnd(Transform actor)
 	{
 		storiesCollider.enabled = true;
-
-		Application.LoadLevel (nextLevel);
+		Application.LoadLevel(Application.loadedLevel + 1);
 	}
 }

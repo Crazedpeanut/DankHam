@@ -34,6 +34,7 @@ public class CustomCharacterControls : MonoBehaviour {
 
 	void OnConversationEnd(Transform actor)
 	{
+		Debug.Log (actor.name);
 		actor.GetComponent<Collider>().enabled = true;
 		this.transform.position = startingPos;
 

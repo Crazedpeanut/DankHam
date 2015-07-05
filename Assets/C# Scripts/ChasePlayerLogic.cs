@@ -36,28 +36,21 @@ public class ChasePlayerLogic : MonoBehaviour
 	void OnConversationStart(Transform actor)
 	{
 		if (actor.name == blacksmith.name) {
-			blacksmith.GetComponent<Collider> ().enabled = false;
-			blacksmithComplete.GetComponent<Collider> ().enabled = false;
+
 			if (!talkedToBlacksmithOnce) {
 				talkedToBlacksmithOnce = true;
 				horseShoeCollection.SetActive (true);//make the quest start
 			}
 		} else if (actor.name == convict.name) {
-			convict.GetComponent<Collider> ().enabled = false;
-		} else if (actor.name == bready.name) {
 
+		} else if (actor.name == bready.name) {
 		}
 	}
 
 	void OnConversationEnd(Transform actor)
 	{
-		if (actor.name == blacksmith.name) {
-			blacksmith.GetComponent<Collider>().enabled = true;
-			blacksmithComplete.GetComponent<Collider>().enabled = true;
-		} else if (actor.name == convict.name) {
-			convict.GetComponent<Collider>().enabled = true;
-		}else if (actor.name == bready.name) {
-			bready.GetComponent<Collider>().enabled = true;
+		if (actor.name == bready.name) {
+			Application.LoadLevel(Application.loadedLevel + 1);
 		}
 	}
 }
